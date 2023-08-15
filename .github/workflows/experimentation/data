@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name "myML" --role contributor  --scopes /subscriptions/56cd0528-5bb5-42c0-afeb-561ef26e12dc/resourceGroups/abc   --sdk-auth
