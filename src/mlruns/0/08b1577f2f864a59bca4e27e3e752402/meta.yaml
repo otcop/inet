@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/xhuo/inet/src/mlruns/0/08b1577f2f864a59bca4e27e3e752402/artifacts
+end_time: 1692141527787
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08b1577f2f864a59bca4e27e3e752402
+run_name: trusting-ape-558
+run_uuid: 08b1577f2f864a59bca4e27e3e752402
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692141523819
+status: 3
+tags: []
+user_id: xhuo

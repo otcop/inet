@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/xhuo/inet/src/mlruns/0/b5a2ece91ac54cc3aad86e27bd5ad778/artifacts
+end_time: 1692141450565
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b5a2ece91ac54cc3aad86e27bd5ad778
+run_name: adaptable-ray-858
+run_uuid: b5a2ece91ac54cc3aad86e27bd5ad778
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692141428768
+status: 3
+tags: []
+user_id: xhuo

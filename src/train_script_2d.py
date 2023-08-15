@@ -63,10 +63,13 @@ if __name__ == "__main__":
     keys = default_dict.keys()
     args=args_to_dict(args,keys)
     df = pd.read_csv(args['training_data'], index_col=None)
+    print(df.iloc[0].to_dict())
     args.update(df.iloc[0].to_dict())
+    print(args)
     args['num_ext'] = int(args['num_ext'])
     args['d'] = int(args['d'])
     args['num_int'] = int(args['num_int'])
+    args['batch_size'] = int(args['batch_size'])
 
     #Load the data and make dataloaders
     x, xb = load_data(d=args['d'], num_int=args['num_int'], num_ext=args['num_ext'])
