@@ -1,8 +1,9 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: .
-command: >-
-  python train_script_2d.py
-  --training_data ${{inputs.training_data}} --folder ${{inputs.folder}}
+command:
+  - pip install /requirements.txt
+  - python train_script_2d.py --training_data ${{inputs.training_data}} --folder ${{inputs.folder}}
+
 
 inputs:
   training_data: 
