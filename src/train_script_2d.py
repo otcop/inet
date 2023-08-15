@@ -70,7 +70,8 @@ if __name__ == "__main__":
     args['d'] = int(args['d'])
     args['num_int'] = int(args['num_int'])
     args['batch_size'] = int(args['batch_size'])
-
+    args['num_epoches'] = int(args['num_epoches'])
+    
     #Load the data and make dataloaders
     x, xb = load_data(d=args['d'], num_int=args['num_int'], num_ext=args['num_ext'])
     dataloader_x = torch.utils.data.DataLoader(x, batch_size = args['batch_size'],shuffle=True)

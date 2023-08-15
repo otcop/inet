@@ -1,2 +1,2 @@
-num_ext,num_int,lr,num_epoches,batch_size
+num_int,num_ext,lr,num_epoches,batch_size
 1000,100,0.001,1000,1000
