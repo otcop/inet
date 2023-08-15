@@ -2,7 +2,7 @@ $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: .
 command: |
   pip install -r ${{inputs.requirefile}}
-  python train_script_2d.py  --training_data ${{inputs.training_data}} --folder ${{inputs.folder}}
+  python train_script_2d.py  --training_data ${{inputs.training_data}} 
 
   
 

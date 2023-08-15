@@ -118,9 +118,9 @@ if __name__ == "__main__":
         )
     a.run_loop()
 
-    np.save(args['folder'] + "/err_%d"%args['d'],a.err)
-    np.save(args['folder'] + "/loss_%d"%args['d'],a.losses)
-    a.save_model(args['folder']+ '/model_%d.pth'%args['d'])
+    # np.save(args['folder'] + "/err_%d"%args['d'],a.err)
+    # np.save(args['folder'] + "/loss_%d"%args['d'],a.losses)
+    # a.save_model(args['folder']+ '/model_%d.pth'%args['d'])
     fig = plt.figure()
     plt.semilogy(a.err)
     mlflow.log_metric("error", a.err[-1])
