@@ -1,7 +1,6 @@
 pytest==7.1.2
 mlflow==1.27.0
 pandas
-sklearn
 scikit-learn
 matplotlib==3.7.2
 pytorch==2.0.1
