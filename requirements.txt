@@ -3,4 +3,4 @@ mlflow==1.27.0
 pandas
 scikit-learn
 matplotlib
-pytorch
+torch
